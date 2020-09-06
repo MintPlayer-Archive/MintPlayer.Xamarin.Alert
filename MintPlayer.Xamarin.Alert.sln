@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{F2EC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{47E5F04D-1BAA-4DF8-8988-AC224E94497C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MintPlayer.Xamarin.Alert", "Library\MintPlayer.Xamarin.Alert\MintPlayer.Xamarin.Alert.csproj", "{6C61BA76-6CBC-497A-A7AA-3CE7175307D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MintPlayer.Xamarin.Alert", "Library\MintPlayer.Xamarin.Alert\MintPlayer.Xamarin.Alert.csproj", "{6C61BA76-6CBC-497A-A7AA-3CE7175307D0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MintPlayer.Xamarin.Alert.Demo.UWP", "Demo\MintPlayer.Xamarin.Alert.Demo\MintPlayer.Xamarin.Alert.Demo.UWP\MintPlayer.Xamarin.Alert.Demo.UWP.csproj", "{6D77126B-37F8-4D36-8EF0-46ACF1C51ADA}"
 EndProject
@@ -15,7 +15,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MintPlayer.Xamarin.Alert.De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MintPlayer.Xamarin.Alert.Demo.iOS", "Demo\MintPlayer.Xamarin.Alert.Demo\MintPlayer.Xamarin.Alert.Demo.iOS\MintPlayer.Xamarin.Alert.Demo.iOS.csproj", "{4D52B2F6-AAA8-4B12-9E8B-5182A99A77A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MintPlayer.Xamarin.Alert.Demo", "Demo\MintPlayer.Xamarin.Alert.Demo\MintPlayer.Xamarin.Alert.Demo\MintPlayer.Xamarin.Alert.Demo.csproj", "{7D81F953-E5CF-48D8-A1D7-7369D1255546}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MintPlayer.Xamarin.Alert.Demo", "Demo\MintPlayer.Xamarin.Alert.Demo\MintPlayer.Xamarin.Alert.Demo\MintPlayer.Xamarin.Alert.Demo.csproj", "{7D81F953-E5CF-48D8-A1D7-7369D1255546}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B6719893-946F-47F4-9DE5-C365F865C260}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.build.props = Directory.build.props
+		Directory.build.targets = Directory.build.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
