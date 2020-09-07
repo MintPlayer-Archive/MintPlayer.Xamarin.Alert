@@ -3,10 +3,11 @@
   <!-- You must have the Android 8.0 SDK installed through the Android SDK manager -->
 
   <PropertyGroup>
-    <AssemblyName>MultiTargetLibrary</AssemblyName>
-    <RootNamespace>MultiTargetLibrary</RootNamespace>
+    <AssemblyName>MintPlayer.Xamarin.Alert</AssemblyName>
+    <RootNamespace>MintPlayer.Xamarin.Alert</RootNamespace>
     <TargetFrameworks>netstandard2.0;Xamarin.iOS10;MonoAndroid80;uap10.0.16299</TargetFrameworks>
     <_WriteTelemetryProperties>false</_WriteTelemetryProperties>
+    <Version>1.0.6</Version>
   </PropertyGroup>
 
   <ItemGroup>
