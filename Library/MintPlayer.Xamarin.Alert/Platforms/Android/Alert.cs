@@ -2,7 +2,7 @@
 using Android.Widget;
 using System.Threading.Tasks;
 
-namespace MultiTargetLibrary.Platforms.Android
+namespace MintPlayer.Xamarin.Alert.Platforms.Android
 {
     public static class Alert
     {

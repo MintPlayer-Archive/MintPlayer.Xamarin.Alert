@@ -144,10 +144,14 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.6.0.1141" />
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.9"/>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.9" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Library\MintPlayer.Xamarin.Alert\MintPlayer.Xamarin.Alert.csproj">
+      <Project>{6c61ba76-6cbc-497a-a7aa-3ce7175307d0}</Project>
+      <Name>MintPlayer.Xamarin.Alert</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MintPlayer.Xamarin.Alert.Demo\MintPlayer.Xamarin.Alert.Demo.csproj">
       <Project>{FABA96ED-4F7F-4AEA-81F0-EB59073739A3}</Project>
       <Name>MintPlayer.Xamarin.Alert.Demo</Name>

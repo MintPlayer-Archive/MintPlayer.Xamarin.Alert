@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using UIKit;
 
-namespace MultiTargetLibrary.Platforms.iOS
+namespace MintPlayer.Xamarin.Alert.Platforms.iOS
 {
     public static class Alert
     {

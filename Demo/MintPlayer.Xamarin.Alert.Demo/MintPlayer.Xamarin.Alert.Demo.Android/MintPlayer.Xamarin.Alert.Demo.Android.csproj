@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -89,10 +89,14 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Library\MintPlayer.Xamarin.Alert\MintPlayer.Xamarin.Alert.csproj">
+      <Project>{6c61ba76-6cbc-497a-a7aa-3ce7175307d0}</Project>
+      <Name>MintPlayer.Xamarin.Alert</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MintPlayer.Xamarin.Alert.Demo\MintPlayer.Xamarin.Alert.Demo.csproj">
       <Project>{FABA96ED-4F7F-4AEA-81F0-EB59073739A3}</Project>
       <Name>MintPlayer.Xamarin.Alert.Demo</Name>
     </ProjectReference>
   </ItemGroup>
- <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

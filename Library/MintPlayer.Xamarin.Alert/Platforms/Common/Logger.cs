@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MultiTargetLibrary.Platforms.Common
+namespace MintPlayer.Xamarin.Alert.Platforms.Common
 {
     public static class Logger
     {

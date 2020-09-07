@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Windows.UI.Popups;
 
-namespace MultiTargetLibrary.Platforms.UWP
+namespace MintPlayer.Xamarin.Alert.Platforms.UWP
 {
     public static class Alert
     {

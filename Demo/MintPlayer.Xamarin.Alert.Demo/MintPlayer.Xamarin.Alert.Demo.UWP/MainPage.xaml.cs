@@ -20,7 +20,7 @@ namespace MintPlayer.Xamarin.Alert.Demo.UWP
         public MainPage()
         {
             this.InitializeComponent();
-
+            MintPlayer.Xamarin.Alert.Platforms.UWP.Alert.Show("Hello uwp");
             LoadApplication(new MintPlayer.Xamarin.Alert.Demo.App());
         }
     }

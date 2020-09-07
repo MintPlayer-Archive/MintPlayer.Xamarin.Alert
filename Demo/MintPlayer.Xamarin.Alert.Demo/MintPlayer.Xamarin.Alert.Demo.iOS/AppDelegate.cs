@@ -22,6 +22,8 @@ namespace MintPlayer.Xamarin.Alert.Demo.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            MintPlayer.Xamarin.Alert.Platforms.iOS.Alert.Show(app.InputViewController, "hello ios");
+
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
